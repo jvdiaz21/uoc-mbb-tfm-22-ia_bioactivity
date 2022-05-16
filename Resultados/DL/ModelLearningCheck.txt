@@ -1,0 +1,12 @@
+Best RMSE: 5441474.0
+Test RMSE: 4125030.0
+('', GCN3(
+  (conv1): GCNConv(3, 16)
+  (conv2): GCNConv(16, 32)
+  (conv3): GCNConv(32, 64)
+  (fc): Linear(in_features=64, out_features=1, bias=True)
+  (bn1): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (bn2): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (bn3): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (dropout): Dropout(p=0, inplace=False)
+))('conv1', GCNConv(3, 16))('conv1.lin', Linear(3, 16, bias=False))('conv2', GCNConv(16, 32))('conv2.lin', Linear(16, 32, bias=False))('conv3', GCNConv(32, 64))('conv3.lin', Linear(32, 64, bias=False))('fc', Linear(in_features=64, out_features=1, bias=True))('bn1', BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True))('bn2', BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True))('bn3', BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True))('dropout', Dropout(p=0, inplace=False))
