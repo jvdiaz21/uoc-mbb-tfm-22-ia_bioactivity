@@ -25,8 +25,8 @@ La distribución de los archivos del proyecto en este repositorio es:
 		└── ML				# Modelos de Machine Learning 
 	├── Datasets				# Conjuntos de datos
 		├── DATA_FRAMES		# Datos de experimentos ML 
-		├── DATA_LOADERS		# Datos de experimentos ML 
-		├── DATA_LOADERS_75		# Datos reducidos de experimentos ML 
+		├── DATA_LOADERS		# Datos de experimentos DL 
+		├── DATA_LOADERS_75		# Datos reducidos de experimentos DL 
 		├── DATA_RAW			# Datos descargados de la BBDD
 		└── DESCRIPTORS		# Listas de descriptores específicos para cada target-indicador
 			└── RAW			# Todos los descriptores calculados para cada target-indicador
